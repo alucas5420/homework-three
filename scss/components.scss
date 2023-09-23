@@ -1,0 +1,38 @@
+.background-props {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.tour-component {
+    height: $tour-banner-height;
+    width: $tour-banner-width;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .info-holder {
+        color: white;
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+.isreal-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour/tour-01.jpg);   
+}
+
+.usa-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour/tour-02.jpg);
+}
+
+.australia-pic {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/tour/tour-03.jpg);
+}

@@ -1,0 +1,39 @@
+.nav-holder {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    
+    nav {
+       width: $site-nav-width; 
+       height: $site-nav-height;
+       margin: 0 auto;
+       border-bottom: solid $site-white 2px;
+       color: white;
+
+       .words {
+        margin: auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+        letter-spacing: 1px;
+
+        .logo {
+        width: 92px;
+        height: 42px;
+        outline: 2px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            
+        }
+    }
+    }
+}
